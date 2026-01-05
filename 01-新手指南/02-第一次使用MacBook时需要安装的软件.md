@@ -96,11 +96,21 @@ Raycast的历史剪贴板功能的使用效果：
 
 比如，我想通过 按下「Option + C」快捷键，就能打开 Chrome浏览器的话，可以在 Raycast 上这样配置：
 
-![image-20260102003813057](https://img.smyhvae.com/202601020038080.png)
+![image-20260102112454186](https://img.smyhvae.com/202601021124208.png)
 
-其他软件，我建立的快捷键映射如下：
+我高频使用的几个重要软件（稍后会陆续安装），建立的快捷键映射如下：
 
-- todo
+- chrome浏览器：option + C （C是 chrome的缩写）
+- Typora：option + M（M是 markdown的缩写）
+- 微信：option + W
+- vs code / cursor 编程软件：option + V
+
+### 密码管理软件：1paasword
+
+- 下载地址：https://1password.com/downloads/mac
+- 费用：￥253/年
+
+最新版的安装包注意要在官网下载，不要在 App Store下载。App Store上的安装包已经两年没更新了。
 
 ### 同步网盘：dropbox
 
@@ -150,7 +160,62 @@ token的配置参考：https://blog.csdn.net/weixin_41010198/article/details/119
 
 - 下载地址：App Store
 
+### 聊天软件：微信、QQ
 
+* 下载地址：App Store
+
+### NAS：极空间
+
+- 下载地址：https://download.zspace.cn/
+
+我买了「极空间」的NAS设备，搭配它的软件，可以很方便地进行文件备份和管理。
+
+### 护眼工具：f.lux
+
+- 下载地址：https://justgetflux.com/
+
+降低屏幕的色温，减弱蓝光，保护眼睛。
+
+打开软件后，会自动识别当前定位，确定 location的坐标。我的使用习惯是 Daytime（日出） 色温设置为 5700， Sunset（日落）色温设置为4300：
+
+![image-20260105142231338](https://img.smyhvae.com/202601051422360.png)
+
+### 菜单栏管理：Hidden Bar
+
+- 下载地址：App Store
+
+用最精简的功能，实现了在菜单栏隐藏应用图标这个小需求。
+
+按住 cmd键盘拖拽顶部的软件图标，即可把菜单栏中不想展示的图标隐藏起来。
+
+### 日历工具：Itsycal 
+
+- 下载地址：https://www.mowglii.com/itsycal/
+
+安装完成后，打开设置面板，调整一些参数配置。
+
+- 允许该软件读取系统自带的日历；显示事件列表中设置为31天（默认是7天），勾选“生日”和“节假日”。
+- 勾选“登录时启动”（默认未勾选）
+- 星期开始于“星期一”（默认是星期天）
+- 隐藏图标，并将日期格式设置为 `yyyy/MM/dd HH:mm E`
+
+![image-20260105204913327](https://img.smyhvae.com/202601052049350.png)
+
+
+
+最后，将菜单栏中系统自带的日期显示，隐藏掉。操作路径：系统设置-->菜单栏-->时钟-->时钟选项。配置项：
+
+- 显示日期：设置为“永不”
+- 取消勾选“显示星期”
+- 时间样式从“数码”改为“指针”。
+
+![image-20260105205513733](https://img.smyhvae.com/202601052055757.png)
+
+菜单栏最终实现效果：
+
+![image-20260105210110243](https://img.smyhvae.com/202601052101267.png)
+
+上图中，点击菜单栏的Itsycal软件图标，会弹出日历面板，非常方便。
 
 ## 按需安装
 
